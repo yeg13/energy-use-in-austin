@@ -241,7 +241,7 @@ save "C:\Users\guyuye2\Desktop\AE\Crosswalk-TCAD-ECAD-ABOR-DATE.dta", replace
 duplicates tag (mlsnumber), gen(dup1)
 
 *****************************************************************************************************
-# Annoynamize datasets
+## Anonymize datasets
 import delimited C:\Users\guyuye2\Desktop\Code\CADID_code.csv, case(preserve) clear
 tostring CADID, replace
 save "C:\Users\guyuye2\Desktop\Code\CADID_code.dta", replace
