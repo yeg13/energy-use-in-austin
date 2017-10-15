@@ -152,7 +152,7 @@ replace count=f if !missing(f)
 replace count=g if !missing(g)
 drop a b c d e f g dup1 yearbuilt
 
-help reshape
+
 replace audityear=0 if missing(audityear)
 reshape wide audityear, i(cad_id) j(count) 
 replace audityear2=. if audityear1==audityear2
