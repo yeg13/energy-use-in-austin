@@ -1,4 +1,6 @@
 
+### Dataset for newer audits does not have property ID (cad id) information. I used string merge based on addresses to bring 
+### property ID to the dataset with newer audits.
 
 address_cad <- read.csv("C:/Users/guyuye2/Desktop/cad_address.csv")
 address <- read.csv("C:/Users/guyuye2/Desktop/address.csv")
